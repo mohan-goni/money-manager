@@ -1,0 +1,46 @@
+.money-details-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.money-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 10px 15px;
+  border-radius: 16px;
+  width: 30%;
+}
+
+.money-img {
+  max-width: 70px;
+}
+.money-text {
+  color: #475569;
+  margin-bottom: 0px;
+}
+.money-text-container {
+  margin-left: 16px;
+}
+.rupees-text {
+  font-size: 24px;
+  margin-top: 5px;
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}
